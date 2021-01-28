@@ -1,0 +1,66 @@
+.mydiv{
+	background: black;
+}
+.myvideo{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	outline: none;
+}
+.mycontent .my-content1 .row{
+	background: transparent;
+	
+}
+.mycontent .my-content1 .row textarea{
+	border:0px;
+	width: 100%;
+	resize: none;
+	font-size: 12px;
+	line-height: 20px;
+	background: transparent;
+	outline: none;
+	
+}
+.mycontent .my-content2 .row p{
+	padding-top: 20px;
+	color: rgb(229,36,22);
+	font-size: 18px;
+}
+.mycontent .my-content2 .row{
+	font-size: 12px;
+	line-height: 20px;
+}
+.mycontent .my-content2 .row img{
+	padding-top: 30px;
+}
+.mycontent .my-content3 .row{
+	position: relative;
+}
+.mycontent .my-content3 .row img{
+	width: 85%;
+	height: 250px;
+}
+.mycontent .my-content3 .row{
+	background: transparent;
+}
+.mycontent .my-content3 .row h4{
+	font-weight: bold;
+	margin: 15px auto;
+}
+.mycontent .my-content3 .row span{
+	-border: 1px solid black;
+	display: none;
+	width: 80%;
+	height: 250px;
+	z-index: 555;
+	top: 0;
+	left: 10%;
+	line-height: 30px;
+	background: rgba(229, 36, 22, 0.503);
+	color: white;
+	position: absolute;
+}
+.mycontent .my-content3 .row div:hover span{
+	display: block;
+	
+}

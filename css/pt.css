@@ -1,0 +1,82 @@
+.mycontent .pt_content1 .row table td{
+	padding: 20px;
+	-border: 1px solid black;
+	font-size: 12px;
+	line-height: 20px;
+	
+}
+.table tr td{
+	background: transparent;
+}
+.mycontent .pt_content1 .row table h5{
+	font-weight: bold;
+	font-size: 16px;
+	height: 25px;
+	-border: 1px solid black;
+	margin-bottom: 0px;
+}
+.mycontent .pt_content1 .row table strong{
+	-margin-bottom: 12px;
+	line-height: 30px;
+	-border: 1px solid black;
+	display: block;
+}
+
+.mycontent .pt_content1 .row table tr:hover h5{
+	
+	font-size: 18px;
+	color: rgb(229,36,22);
+}
+
+.mycontent .pt_content1 .row img{
+	border-radius: 50%;
+	width: 100px;
+	-border: 1px solid black;
+	transition: 0.5s linear;
+}
+.mycontent .pt_content1 .row table tr:hover img{
+	transform: scale(0.8);
+}
+.mycontent .pt_content2 .row {
+	background: transparent;
+}
+.mycontent .pt_content2 .row div{
+	overflow: hidden;
+}
+
+.mycontent .pt_content2 .row img{
+	width: 100%;
+	padding: 10px 0;
+	transition: 0.5s linear;
+}
+.mycontent .pt_content2 .row img:hover {
+	-border: 1px solid red;
+	transform: scale(1.2);
+}
+.mycontent .pt_content3 .row{
+	background: transparent;
+}
+.mycontent .pt_content3 .row form{
+	width: 80%;
+	margin: 0 auto;
+}
+.mycontent .pt_content3 .row textarea{
+	border: 0;
+	resize: none;
+	outline: none;
+	width: 100%;
+	border-radius:3px ;
+	
+}
+.mycontent .pt_content3 .row button{
+	width: 100px;
+	border: 0;
+	outline: none;
+	font-weight: bold;
+	border-radius:15px ;
+}
+.mycontent .pt_content3 .row button:hover{
+	background:rgba(229, 36, 22, 0.503) ;
+	
+}
+

@@ -1,0 +1,212 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+body {
+	
+	background-color: rgb(255, 255, 255);
+	background: url(../img/底纹2.jpg) no-repeat;
+	background-size:cover ;
+}
+
+.container-fluid .row div {
+	-border: 1px solid black;
+}
+
+.top-bar .container-fluid .row div {
+	-border: 1px solid black;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+
+.top-bar .container-fluid .row table {
+	margin: 5px auto;
+	height: 20px;
+}
+
+.top-bar .container-fluid .row table tr td {
+	border-right: 1px solid gray;
+	padding: 0px 10px;
+	line-height: 20px;
+}
+
+.mynav {
+	background: rgb(229,36,22);
+	height: 60px;
+	font-size: 16px;
+
+}
+
+.mynav .navbar-nav li a {
+	line-height: 20px;
+	-height: 30px;
+	color: black;
+	-border: 1px solid black;
+	padding-right: 20px;
+	padding-top: 30px;
+	margin-top: -10px;
+}
+
+.mynav .navbar-nav li a:hover{
+    -border: none;
+	-background: transparent;
+	-border-bottom: 2px solid white;
+	-font-size: 20px;
+	color: white;
+}
+.mynav .navbar-nav li a.active{
+	color: white;
+	border-bottom: 2px solid white;
+}
+#lk_nav .nav {
+	-border: 1px solid black;
+	position: relative;
+	background: rgb(229,36,22);
+	
+}
+
+#lk_nav .nav li {
+	margin-right: 50px;
+}
+
+@media all and (min-width: 908px) {
+	#lk_nav .nav {
+		left: 20%;
+	}
+}
+
+.mycontent {
+	-height: 800px;
+	width: 80%;
+	margin: 0 auto;
+	-border: 1px solid black;
+}
+.mycontent .row{
+	background:  #f0f0f0;
+}
+.mycontent1 .container-fluid{
+	-border: 1px solid black;
+	padding-top: 20px;
+	background:  #f0f0f0;
+}
+.mycontent1 .container-fluid .row{
+	line-height: 28px;
+	font-size: 12px;
+}
+.s1 {
+	display: block;
+}
+
+.s2 {
+	display: none
+}
+
+#sub1 {
+	height: 430px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+#sub1 img {
+	height: 430px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	position: absolute;
+}
+
+#imgc {
+	width: 80px;
+	height: 18px;
+	position: absolute;
+	top: 370px;
+	left: 45%;
+	background: rgba(97, 93, 93, 0.568);
+	border-radius: 10px
+}
+
+#imgc li {
+	list-style: none;
+	width: 12px;
+	height: 12px;
+	border: 2px white solid;
+	border-radius: 50%;
+	float: left;
+	margin: 2px 0px 0px 12px;
+	cursor: pointer;
+}
+
+h1{
+	font-size: 24px;
+	position: relative;
+	-background: palevioletred;
+}
+h1>img{
+	width: 30px;
+	-border: 1px solid black;
+	position: absolute;
+	left: 41%;
+	transition: 0.4s linear;
+}
+h1>img:hover{
+	transform: rotate(225deg);
+	
+}
+@media all and (max-width: 908px) {
+	h1>img{
+		-left: 30%;
+		display: none;	
+	}
+}
+h2{
+	font-size: 12px;
+}
+details{
+	line-height: 22px;
+}
+summary{
+	outline:none;
+}
+.mycontent .mycontent2 details:hover{
+	background: rgba(229, 36, 22, 0.503);
+}
+.mycontent3 .row{
+	background: #f0f0f0;
+}
+.mycontent3 .row .nav{
+	font-size: 16px;
+}
+.mycontent3 .row .nav a{
+	color: #999;
+}
+.mycontent3 .row .nav li.active a{
+	border: none;
+	background: transparent;
+	border-bottom:rgba(229, 36, 22)  4px solid ;
+	color: black;
+}
+
+.mycontent3 .row .tab-content h2{
+	padding: 20px;
+	line-height: 18px;
+}
+footer{
+	margin-top: 30px;
+	padding: 30px 0px;
+	color: white;
+	font-size: 12px;
+	line-height: 20PX;
+	background: url(../img/end2.jpg);
+	background-size:cover ;
+}
+footer .im1{
+	width: 90px;
+}
+footer img{
+	width: 30px;
+	
+}
